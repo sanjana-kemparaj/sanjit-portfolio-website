@@ -73,7 +73,7 @@ const Home = () => {
     <div className='-ml-4 mb-4'>
       <img src={gear_1} ref={gear2Ref} alt="logo" className='h-30 w-30'/>
     </div>
-    <div className='mt-8 mr-12'>
+    <div className='mt-8 mr-16'>
       <img src={gear_1} ref={gear3Ref} alt="logo" className='h-24 w-24'/>
     </div>
     </div>
@@ -98,7 +98,7 @@ const Home = () => {
   }}
        
         
-       className="text-2xl font-medium bg-red-900 rounded-[6rem] h-20 w-100 md:w-100 m-8 hover:scale-103 hover:bg-red-800"><a>sanjit@gmail.com</a></button>
+       className="text-xl font-medium bg-red-900 rounded-[6rem] h-20 w-100 md:w-100 m-8 hover:scale-103 hover:bg-red-800"><a>sanjit.shankar@gmail.com</a></button>
     </div>
     </div>
     {/* row 2 */}

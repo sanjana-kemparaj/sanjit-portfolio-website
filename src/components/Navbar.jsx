@@ -1,7 +1,7 @@
-import { Link as ScrollLink } from 'react-scroll'; // Renamed to avoid conflicts
+import { Link as ScrollLink } from 'react-scroll'; 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { cn } from "@/lib/utils"; // Import cn for easier class combination
+import { cn } from "@/lib/utils"; 
 
 const Navbar = () => {
   const navLinks = [

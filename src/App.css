@@ -6,4 +6,14 @@
 @theme {
   --color-boxbg: #131315;
   --color-greytext: #8A8A93;
+  --animation-circular-rotate: 'circular-rotate 2s linear infinite';
 }
+  @keyframes circular-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+
