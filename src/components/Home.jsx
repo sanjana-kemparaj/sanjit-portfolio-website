@@ -55,50 +55,46 @@ const Home = () => {
     <>
     {/* row 1 */}
     <div id="home" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-5">
-    <div data-aos="fade-right" className= "bg-boxbg p-5 rounded-4xl">
+    <div data-aos="fade-right" className="bg-boxbg p-5 rounded-4xl">
     <div className="rounded-full bg">
-    <img src= {photo} alt="photo" className="rounded-full w-32 h-32 grayscale"/>
+    <img src={photo} alt="photo" className="rounded-full w-24 h-24 md:w-32 md:h-32 grayscale"/>
     </div>
-    <p className="text-greytext text-4xl md:text-6xl font-medium p-5"><span className='text-white'>sanjit shankar
+    <p className="text-greytext text-2xl md:text-4xl lg:text-6xl font-medium p-3 md:p-5"><span className='text-white'>sanjit shankar
     simulation engineer </span>currently working at Sonos. </p>
     </div>
-    <div data-aos="fade-left" className= "bg-boxbg p-5 rounded-4xl flex flex-col justify-center items-center">
-    <div className='flex ml-8'>
+    <div data-aos="fade-left" className="bg-boxbg p-5 rounded-4xl flex flex-col justify-center items-center">
+    <div className='flex ml-2 md:ml-8'>
     <div className='flex flex-col'>
     <div className='-ml-1 mt-2'>
-      <img src={gear_1} ref={gear1Ref}  alt="logo" className='h-34 w-34'/>
+      <img src={gear_1} ref={gear1Ref}  alt="logo" className='h-20 w-20 md:h-34 md:w-34'/>
     </div>
-    
-    <div className='flex mb-10'>
-    <div className='-ml-4 mb-4'>
-      <img src={gear_1} ref={gear2Ref} alt="logo" className='h-30 w-30'/>
+    <div className='flex mb-6 md:mb-10'>
+    <div className='-ml-2 md:-ml-4 mb-2 md:mb-4'>
+      <img src={gear_1} ref={gear2Ref} alt="logo" className='h-16 w-16 md:h-30 md:w-30'/>
     </div>
-    <div className='mt-8 mr-16'>
-      <img src={gear_1} ref={gear3Ref} alt="logo" className='h-24 w-24'/>
-    </div>
+    <div className='mt-4 md:mt-8 mr-6 md:mr-16'>
+      <img src={gear_1} ref={gear3Ref} alt="logo" className='h-12 w-12 md:h-24 md:w-24'/>
     </div>
     </div>
     </div>
-    <p className="text-white text-4xl md:text-5xl font-bold">Have a project in mind? </p>
-    <button variant="outline"
-     onClick={async () => { 
-    const emailToCopy = "sanjit.shankar@gmail.com";
-
-    try {
-      await navigator.clipboard.writeText(emailToCopy);
-      toast("Hooray!", {
-        description: "Email copied!",
-      });
-    } catch (err) {
-      console.error('Failed to copy email: ', err);
-      toast("Oops!", {
-        description: "Could not copy email. Please try manually.",
-      });
-    }
-  }}
-       
-        
-       className="text-xl font-medium bg-red-900 rounded-[6rem] h-20 w-100 md:w-100 m-8 hover:scale-103 hover:bg-red-800"><a>sanjit.shankar@gmail.com</a></button>
+    </div>
+    <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold text-center">Have a project in mind? </p>
+    <button
+      variant="outline"
+      onClick={async () => { 
+        const emailToCopy = "sanjit.shankar@gmail.com";
+        try {
+          await navigator.clipboard.writeText(emailToCopy);
+          toast("Hooray!", { description: "Email copied!" });
+        } catch (err) {
+          console.error('Failed to copy email: ', err);
+          toast("Oops!", { description: "Could not copy email. Please try manually." });
+        }
+      }}
+      className="text-base md:text-xl font-medium bg-red-900 rounded-[3rem] h-12 w-64 md:h-20 md:w-100 m-4 md:m-8 hover:scale-103 hover:bg-red-800"
+    >
+      <a>sanjit.shankar@gmail.com</a>
+    </button>
     </div>
     </div>
     {/* row 2 */}
