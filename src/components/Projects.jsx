@@ -33,7 +33,7 @@ const Projects = () => {
     </div>
       
       {/* project 1 */}
-      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 gap-5 mb-5">
+      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-3 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className='flex'>
     <div>
@@ -49,7 +49,7 @@ const Projects = () => {
     </div>
   </div>
   <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2'>
-    <img src={Sonos_Arc_Ultra} className='w-full rounded-3xl my-4 px-4'/>
+    <img src={Sonos_Arc_Ultra} className='md:w-4/5 rounded-3xl'/>
     <div>
     <div className='flex'>
     <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
@@ -68,7 +68,7 @@ const Projects = () => {
   </div>
 </div>
       {/* project 2 */}
-      <div data-aos="fade-right" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 gap-5 mb-5">
+      <div data-aos="fade-right" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-3 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className="flex">
     <div>
@@ -86,7 +86,7 @@ const Projects = () => {
   </div>
 
   <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2'>
-    <img src={proj_2} className='w-full rounded-3xl my-6 px-4'/>
+    <img src={proj_2} className='md:w-4/5 rounded-3xl'/>
     <div>
     <div className='flex'>
     <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
@@ -100,19 +100,19 @@ const Projects = () => {
   </div>
 </div>
       {/* project 3 */}
-      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 gap-5 mb-5">
+      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className='col-span-1'>
-      <p className='text-white font-medium text-2xl md:text-3xl'>Real-time Simulation</p>
-      <p className='text-greytext font-small text-lg md:text-2xl'>Master Thesis</p>
+      <p className='text-white font-medium text-3xl'>Real-time Simulation</p>
+      <p className='text-greytext font-small text-2xl'>Master Thesis</p>
     </div>
-    <div className='col-span-1 text-white font-medium text-lg md:text-2xl'>
+    <div className='col-span-1 text-white font-medium  text-2xl'>
       <p>A real-time simulator for the sport of skeleton. </p>
     </div>
   </div>
 
-  <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2 md:gap-5 relative'>
-    <div className='flex justify-center sm:p-5'>
+  <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2 relative'>
+    <div className='flex justify-center sm:p-5 md:p-0 md:mt-5 md:-ml-10 md:w-[35rem]'>
       <Carousel className="sm:w-full md:max-w-s md:mx-12">
         <CarouselContent>
           {images.map((_, index) => (
@@ -133,22 +133,22 @@ const Projects = () => {
     </div>
     <div className='relative'>
       <div className='flex'>
-        <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
+        <p className="text-4xl font-bold text-gray-300 mr-4 mt-3">1<span className="text-red-800 text-4xl">.</span></p>
         <div>
-          <p className="text-xl md:text-2xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Works</p>
+          <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Works</p>
           <div>
-            <p className="text-lg md:text-xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Developed a precise 3D reconstruction of the skeleton track at Park City, Utah.</p>
-            <p className="text-lg md:text-xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Modeling of athlete-sled and sled-track physics interactions.</p>
+            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Developed a precise 3D reconstruction of the skeleton track at Park City, Utah.</p>
+            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Modeling of athlete-sled and sled-track physics interactions.</p>
           </div>
         </div>
       </div>
       <div className='flex'>
-        <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">2<span className="text-red-800 text-4xl">.</span></p>
+        <p className="text-4xl font-bold text-gray-300 mr-4 mt-3">2<span className="text-red-800 text-4xl">.</span></p>
         <div>
-          <p className="text-xl md:text-2xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Goals</p>
+          <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Goals</p>
           <div>
-            <p className="text-lg md:text-xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Provide an accurate simulator for algorithmic optimization of control strategies.</p>
-            <p className="text-lg md:text-xl p-3 md:p-5 md:p-0 md:my-4 text-gray-300">Enable a safe and cost-efficient virtual training environment for athletes.</p>
+            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Provide an accurate simulator for algorithmic optimization of control strategies.</p>
+            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Enable a safe and cost-efficient virtual training environment for athletes.</p>
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ const Projects = () => {
 
   </div>
        {/* waves animation in bottom right */}
-      <div className="absolute -bottom-8 right-0 w-28 h-28 md:w-40 md:h-40 pointer-events-none z-10">
+      <div className="absolute -bottom-8 right-0 w-40 h-40 pointer-events-none z-10">
         <lottie-player src={waves} background="transparent" speed="1" loop autoplay></lottie-player>
       </div>
 </div>

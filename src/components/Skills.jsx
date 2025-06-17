@@ -29,8 +29,8 @@ const Skills = () => {
         <p className="text-lg md:text-2xl my-1 md:my-2 text-greytext font-semibold">Material Science</p>
         </div>
         <div> 
-            <img src={bolt} className="h-4 w-4 md:h-5 md:w-5 absolute right-[38px] md:right-[58px] top-[10px] md:top-[17px] animate-[circular-rotate_8s_linear_infinite] rotate-[46deg]"/>
-            <img src={spanner} className="h-16 w-6 md:h-24 md:w-10 absolute right-4 md:right-9 origin-[50%_20%] animate-[circular-rotate_5s_linear_infinite]" style={{
+            <img src={bolt} className="h-4 w-4 md:h-5 md:w-5 absolute right-[38px] md:right-[37px] top-[10px] md:top-[17px] animate-[circular-rotate_8s_linear_infinite] rotate-[46deg]"/>
+            <img src={spanner} className="h-16 w-6 md:h-24 md:w-10 absolute right-4  origin-[50%_20%] animate-[circular-rotate_5s_linear_infinite]" style={{
             right: 'calc(24px + 0.5rem)',
             top: 'calc(0.5rem + 0.25rem)'
     }}></img> 

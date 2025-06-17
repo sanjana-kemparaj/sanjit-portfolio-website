@@ -59,7 +59,7 @@ const Home = () => {
     <div className="rounded-full bg">
     <img src={photo} alt="photo" className="rounded-full w-24 h-24 md:w-32 md:h-32 grayscale"/>
     </div>
-    <p className="text-greytext text-2xl md:text-4xl lg:text-6xl font-medium p-3 md:p-5"><span className='text-white'>sanjit shankar
+    <p className="text-greytext text-4xl md:text-4xl lg:text-6xl font-medium p-3 md:p-5"><span className='text-white'>sanjit shankar
     simulation engineer </span>currently working at Sonos. </p>
     </div>
     <div data-aos="fade-left" className="bg-boxbg p-5 rounded-4xl flex flex-col justify-center items-center">
@@ -91,7 +91,7 @@ const Home = () => {
           toast("Oops!", { description: "Could not copy email. Please try manually." });
         }
       }}
-      className="text-base md:text-xl font-medium bg-red-900 rounded-[3rem] h-12 w-64 md:h-20 md:w-100 m-4 md:m-8 hover:scale-103 hover:bg-red-800"
+      className="text-base md:text-xl font-medium bg-red-900 rounded-[3rem] h-16 w-84 md:h-20 md:w-100 m-4 md:m-8 hover:scale-103 hover:bg-red-800"
     >
       <a>sanjit.shankar@gmail.com</a>
     </button>
@@ -106,7 +106,7 @@ const Home = () => {
     <p className="text-white text-4xl md:text-5xl font-medium ">Based in <br/>The Hague,<br/> Netherlands <br/> <span className="text-greytext">GMT+1</span> </p>
     </div>
     <div data-aos="fade-left" className= "bg-boxbg rounded-4xl flex flex-col justify-center p-10 items-center md:col-span-2">
-    <p className="text-white text-4xl md:text-5xl font-medium">As an engineer who codes<br/>
+    <p className="text-white text-3xl md:text-5xl font-medium">As an engineer who codes<br/>
     I model physical systems to uncover their hidden behaviors, then build web tools to share those insights. <span className="text-greytext">I believe transformative engineering starts with three principles: rigorous simulation, translating complexity into clarity, and building tools that empower others to learn. </span></p>
     </div>
     </div>
