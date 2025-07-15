@@ -33,18 +33,19 @@ const Projects = () => {
     </div>
       
       {/* project 1 */}
-      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
+      <div data-aos="fade-left" className="bg-boxbg p-7 md:p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-3 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className='flex'>
     <div>
-    <p className='text-white font-medium text-3xl'>Sonos Arc Ultra</p>
-    <p className='text-greytext font-small text-2xl'>First consumer product</p>
+    <p className='text-white font-medium text-2xl md:text-3xl'>Sonos Arc Ultra</p>
+    <p className='text-greytext font-small text-md md:text-2xl'>First consumer product</p>
+     
     </div>
-    <div className="h-20 w-50 -ml-10 mt-3"> 
+   <div className="h-20 w-20 md:w-50 md:-ml-10 md:mt-3 ml-3"> 
         <lottie-player src={sound} background="transparent" speed="1" loop autoplay> </lottie-player> 
     </div> 
     </div>
-    <div className='text-white font-medium text-2xl'>
+    <div className='text-white font-medium text-lg md:text-2xl'>
       <p>Commercial realization of novel loudspeaker transducer technology. </p>
     </div>
   </div>
@@ -52,34 +53,34 @@ const Projects = () => {
     <img src={Sonos_Arc_Ultra} className='md:w-4/5 rounded-3xl'/>
     <div>
     <div className='flex'>
-    <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
-    <p className="text-xl p-5 md:p-0 md:my-4 text-gray-300">Mechanical design, simulation analysis and development of “spider” and “surround” for early prototypes.</p>
+    <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
+    <p className=" text-md md:text-xl p-5 md:p-0 md:my-4 text-gray-300">Mechanical design, simulation analysis and development of “spider” and “surround” for early prototypes.</p>
     </div>
     <div className='flex'>
-    <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">2<span className="text-red-800 text-4xl">.</span></p>
-      <p className="text-xl p-5 md:p-0 md:my-4 text-gray-300">Setting up tools and workflow at component and system level to optimize transducer performance.</p>
+    <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-4">2<span className="text-red-800 text-4xl">.</span></p>
+      <p className="text-md md:text-xl p-5 md:p-0 md:my-4 text-gray-300">Setting up tools and workflow at component and system level to optimize transducer performance.</p>
     </div> 
     <div className='flex'>
-    <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">3<span className="text-red-800 text-4xl">.</span></p>
-    <p className="text-xl p-5 md:p-0 md:my-4 text-gray-300">Went from making a few hundred prototypes to millions of units per year.</p>
+    <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-4">3<span className="text-red-800 text-4xl">.</span></p>
+    <p className="text-md md:text-xl p-5 md:p-0 md:my-4 text-gray-300">Went from making a few hundred prototypes to millions of units per year.</p>
     </div>
     </div>
     
   </div>
 </div>
       {/* project 2 */}
-      <div data-aos="fade-right" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
+      <div data-aos="fade-right" className="bg-boxbg p-7 md:p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-3 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className="flex">
     <div>
-      <p className='text-white font-medium text-3xl'>Mayht</p>
-      <p className='text-greytext font-small text-2xl'>Starting Up</p>
+      <p className='text-white font-medium text-2xl md:text-3xl'>Mayht</p>
+      <p className='text-greytext font-small text-md md:text-2xl'>Starting Up</p>
     </div>
-     <div className="h-20 w-50 -ml-10 mt-3"> 
+     <div className="h-20 w-20 md:w-50 md:-ml-10 md:mt-3 ml-3"> 
         <lottie-player src={sound} background="transparent" speed="1" loop autoplay> </lottie-player> 
     </div> 
     </div>
-    <div className='col-span-1 text-white font-medium text-2xl'>
+    <div className='col-span-1 text-white font-medium text-lg md:text-2xl'>
       <p>Development of novel loudspeaker transducer technology. 
 </p>
     </div>
@@ -89,24 +90,24 @@ const Projects = () => {
     <img src={proj_2} className='md:w-4/5 rounded-3xl'/>
     <div>
     <div className='flex'>
-    <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
-    <p className="text-xl p-5 md:p-0 md:my-4 text-gray-300">Started out with no reliable prototype and ended at a few hundred prototypes in various form factors.</p>
+    <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-4">1<span className="text-red-800 text-4xl">.</span></p>
+    <p className="text-md md:text-xl p-5 md:p-0 md:my-4 text-gray-300">Started out with no reliable prototype and ended at a few hundred prototypes in various form factors.</p>
     </div>
     <div className='flex'>
-    <p className="text-4xl font-bold text-gray-300 mr-4 mt-4">2<span className="text-red-800 text-4xl">.</span></p>
-      <p className="text-xl p-5 md:p-0 md:my-4 text-gray-300">Gained expertise in the design, optimization, and material selection for loudspeaker transducer components and complete transducers.</p>
+    <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-4">2<span className="text-red-800 text-4xl">.</span></p>
+      <p className="text-md md:text-xl p-5 md:p-0 md:my-4 text-gray-300">Gained expertise in the design, optimization, and material selection for loudspeaker transducer components and complete transducers.</p>
     </div> 
     </div>
   </div>
 </div>
       {/* project 3 */}
-      <div data-aos="fade-left" className="bg-boxbg p-10 rounded-4xl grid grid-cols-2 mb-5">
+      <div data-aos="fade-left" className="bg-boxbg p-7 md:p-10 rounded-4xl grid grid-cols-2 mb-5">
   <div className='col-span-2 grid sm:grid-cols-1 md:grid-cols-2 p-5'>
     <div className='col-span-1'>
-      <p className='text-white font-medium text-3xl'>Real-time Simulation</p>
-      <p className='text-greytext font-small text-2xl'>Master Thesis</p>
+      <p className='text-white font-medium text-2xl md:text-3xl'>Real-time Simulation</p>
+      <p className='text-greytext font-small text-md md:text-2xl'>Master Thesis</p>
     </div>
-    <div className='col-span-1 text-white font-medium  text-2xl'>
+    <div className='col-span-1 text-white font-medium text-lg mt-4 md:my-0 md:text-2xl'>
       <p>A real-time simulator for the sport of skeleton. </p>
     </div>
   </div>
@@ -133,22 +134,22 @@ const Projects = () => {
     </div>
     <div className='relative'>
       <div className='flex'>
-        <p className="text-4xl font-bold text-gray-300 mr-4 mt-3">1<span className="text-red-800 text-4xl">.</span></p>
+        <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-3">1<span className="text-red-800 text-4xl">.</span></p>
         <div>
-          <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Works</p>
+          <p className="text-xl p-2 md:p-0 my-3 md:my-4 text-gray-300">Works</p>
           <div>
-            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Developed a precise 3D reconstruction of the skeleton track at Park City, Utah.</p>
-            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Modeling of athlete-sled and sled-track physics interactions.</p>
+            <p className="text-md md:text-xl p-2 md:p-0 md:my-4 text-gray-300">Developed a precise 3D reconstruction of the skeleton track at Park City, Utah.</p>
+            <p className="text-md md:text-xl p-2 md:p-0 md:my-4 text-gray-300">Modeling of athlete-sled and sled-track physics interactions.</p>
           </div>
         </div>
       </div>
       <div className='flex'>
-        <p className="text-4xl font-bold text-gray-300 mr-4 mt-3">2<span className="text-red-800 text-4xl">.</span></p>
+        <p className="text-2xl md:text-4xl font-bold text-gray-300 mr-4 mt-3">2<span className="text-red-800 text-4xl">.</span></p>
         <div>
-          <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Goals</p>
+          <p className="text-xl p-2 md:p-0 md:my-4 my-3 text-gray-300">Goals</p>
           <div>
-            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Provide an accurate simulator for algorithmic optimization of control strategies.</p>
-            <p className="text-xl p-2 md:p-0 md:my-4 text-gray-300">Enable a safe and cost-efficient virtual training environment for athletes.</p>
+            <p className="text-md md:text-xl p-2 md:p-0 md:my-4 text-gray-300">Provide an accurate simulator for algorithmic optimization of control strategies.</p>
+            <p className="text-md md:text-xl p-2 md:p-0 md:my-4 text-gray-300">Enable a safe and cost-efficient virtual training environment for athletes.</p>
           </div>
         </div>
       </div>

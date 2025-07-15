@@ -34,8 +34,8 @@ function App() {
   }, []) // Empty array ensures this runs only once on mount
 
   return (
-    <div className="bg-black min-h-screen text-white scroll-smooth">
-       <div className="md:mx-24 py-10 mx-10">
+    <div className="bg-black min-h-screen min-w-screen text-white scroll-smooth">
+       <div className="md:mx-24 py-10 mx-4">
         <Navbar />
         <Home/>
         <Skills/>
