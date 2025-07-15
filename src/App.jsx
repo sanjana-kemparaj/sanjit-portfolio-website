@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="bg-black min-h-screen min-w-screen text-white scroll-smooth">
-       <div className="md:mx-24 py-10 mx-4">
+       <div className="md:mx-24 py-11 mx-4">
         <Navbar />
         <Home/>
         <Skills/>
