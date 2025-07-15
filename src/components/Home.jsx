@@ -59,8 +59,8 @@ const Home = () => {
     <div className="rounded-full bg">
     <img src={photo} alt="photo" className="rounded-full w-24 h-24 md:w-32 md:h-32 grayscale"/>
     </div>
-    <p className="text-greytext text-4xl md:text-4xl lg:text-6xl font-medium p-3 md:p-5"><span className='text-red-900'>sanjit shankar</span><br/>
-    <span className="text-white">simulation engineer </span>currently working at Sonos. </p>
+    <p className="text-greytext text-3xl md:text-4xl lg:text-6xl font-medium p-3 md:p-5"><span className='text-red-900'>sanjit shankar</span><br/>
+    <span className="text-white">simulation engineer <br/></span>currently working at Sonos. </p>
     </div>
     <div data-aos="fade-left" className="bg-boxbg p-5 rounded-4xl flex flex-col justify-center items-center">
     <div className='flex ml-2 md:ml-8'>

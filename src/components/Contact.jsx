@@ -29,10 +29,10 @@ const Contact = () => {
     </div>
     </div>
     <div data-aos="fade-up" className="bg-boxbg p-4 md:p-5 rounded-4xl flex justify-between items-center my-5">
-      <span className="text-white text-sm md:text-md font-semibold">
+      <span className="text-white text-xs md:text-md font-semibold">
         &copy; {new Date().getFullYear()} Sanjit Shankar. All rights reserved.
       </span>
-      <span className="text-greytext text-sm md:text-md font-semibold mb-1">
+      <span className="text-greytext text-xs md:text-md font-semibold mb-1">
         Website developed by Sanjana Kemparaj.
       </span>
     </div>
